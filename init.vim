@@ -35,14 +35,14 @@ Plug 'neovimhaskell/haskell-vim'
 Plug 'ajh17/Spacegray.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
-
 
 syntax enable
 set ruler
 set number
 set background=dark
-
+set encoding=UTF-8
 colorscheme dracula
 
 " number of spaces a tab counts for
